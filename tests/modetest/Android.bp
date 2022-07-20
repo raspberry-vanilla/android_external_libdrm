@@ -9,12 +9,13 @@ package {
 
 build = ["Android.sources.bp"]
 
-cc_test {
+cc_binary {
     name: "modetest",
     defaults: [
         "libdrm_defaults",
         "modetest_sources",
     ],
+    vendor: true,
 
     shared_libs: ["libdrm"],
     static_libs: ["libdrm_util"],
