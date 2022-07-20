@@ -11,5 +11,6 @@ subdirs = ["*"]
 
 cc_library_headers {
     name: "libdrm_test_headers",
+    vendor_available: true,
     export_include_dirs: ["."],
 }

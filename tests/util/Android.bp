@@ -38,6 +38,7 @@ cc_library_static {
         "libdrm_defaults",
         "libdrm_util_sources",
     ],
+    vendor_available: true,
     shared_libs: ["libdrm"],
     header_libs: ["libdrm_test_headers"],
     export_header_lib_headers: ["libdrm_test_headers"],
