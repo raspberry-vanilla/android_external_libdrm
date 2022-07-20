@@ -15,6 +15,7 @@ cc_binary {
         "libdrm_defaults",
         "modetest_sources",
     ],
+    vendor: true,
 
     shared_libs: ["libdrm"],
     static_libs: ["libdrm_util"],
